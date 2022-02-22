@@ -1,4 +1,34 @@
 body {
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: rgba(117, 117, 117, 1);
+}
+ul {
+  list-style: none;
+}
+/*логотип*/
+.logo {
+  font-family: "Ralewey", sans-serif;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.logo-first-word {
+  color: #2196f3;
+}
+.header-site-nav .link {
+  color: rgba(33, 33, 33, 1);
+}
+.header-site-nav .link:hover,
+.header-site-nav .link:focus {
+  color: rgba(33, 150, 243, 1);
+}
+.header-contacts .contacts {
+  color: rgba(117, 117, 117, 1);
+}
+.header-contacts .contacts:hover,
+.header-contacts .contacts:focus {
+  color: rgba(33, 150, 243, 1);
 }
