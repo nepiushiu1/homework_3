@@ -26,6 +26,18 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
+.section {
+  box-sizing: content-box;
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 1px solid red;
+}
+.section-header {
+  display: flex;
+  align-items: center;
+}
 /*logo*/
 .logo {
   font-family: var(--secondary-font);
@@ -40,14 +52,26 @@ body {
   color: rgb(0, 0, 0);
 }
 /*navigation*/
-
+.header-nav-list {
+  display: flex;
+  margin-left: 93px;
+}
+.header-item {
+  margin-right: 50px;
+}
+.header-item:last-child {
+  margin-right: 0;
+}
 .page-nav {
+  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--secondary-txt-cl);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .page-nav:hover,
 .page-nav:focus,
@@ -55,16 +79,23 @@ body {
 .contacts:focus {
   color: var(--accent-cl);
 }
+.contacts-list {
+  display: flex;
+  margin-left: auto;
+}
 .contacts {
+  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: currentColor;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 /*section-1*/
-.section-header {
+.section-one {
   background: rgb(47, 48, 58);
 }
 .title {
